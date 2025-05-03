@@ -1,0 +1,36 @@
+version: "3.9" # 🔢 Versión de la sintaxis de Docker Compose utilizada
+
+services:
+  # 🟢 Servicio de base de datos MongoDB
+  mongo:
+    image: mongo # Imagen oficial de MongoDB
+    ports:
+      - "27017:27017" # Expone el puerto por defecto de MongoDB
+    volumes:
+      - mongo_data:/data/db # Volume persistente para que los datos no se pierdan al reiniciar
+
+  # 🔵 Microservicio de Productos
+  productos:
+    build:
+      context: ./MicroServicioProducto # Carpeta donde está el Dockerfile del microservicio de productos
+    ports:
+      - "5154:80" # Expone el microservicio en localhost:5154
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development # Define el entorno como 'Development'
+    depends_on:
+      - mongo # Asegura que Mongo esté listo antes de iniciar este servicio
+
+  # 🟡 Microservicio de Inventario
+  inventario:
+    build:
+      context: ./MicroServicioInventario # Carpeta donde está el Dockerfile del microservicio de inventario
+    ports:
+      - "5208:80" # Expone el microservicio en localhost:5208
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development # Define el entorno como 'Development'
+    depends_on:
+      - mongo # Se asegura de que Mongo esté levantado antes
+
+# 💾 Volume persistente para MongoDB
+volumes:
+  mongo_data:

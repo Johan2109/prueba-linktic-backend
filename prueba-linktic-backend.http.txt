@@ -1,0 +1,50 @@
+### 📦 Obtener todos los productos
+GET http://localhost:5154/api/products
+X-API-KEY: mi-api-key-supersecreta
+
+###
+
+### 📦 Crear un nuevo producto
+POST http://localhost:5154/api/products
+Content-Type: application/json
+X-API-KEY: mi-api-key-supersecreta
+
+{
+  "name": "Teclado gamer",
+  "description": "Mecánico RGB",
+  "price": 99.99
+}
+
+###
+
+### 🧮 Obtener inventario completo
+GET http://localhost:5208/api/inventory
+X-API-KEY: mi-api-key-supersecreta
+curl -H "X-API-KEY: mi-api-key-supersecreta" http://localhost:5208/api/inventory
+
+###
+
+### 🧮 Crear entrada de inventario
+POST http://localhost:5208/api/inventory
+Content-Type: application/json
+X-API-KEY: mi-api-key-supersecreta
+
+{
+  "productId": "productId",
+  "stock": 50
+}
+
+###
+
+### 🧮 Obtener inventario por ID de producto
+GET http://localhost:5208/api/inventory/productId
+X-API-KEY: mi-api-key-supersecreta
+
+###
+
+### 🧮 Actualizar stock
+PUT http://localhost:5208/api/inventory/productId
+Content-Type: application/json
+X-API-KEY: mi-api-key-supersecreta
+
+25
