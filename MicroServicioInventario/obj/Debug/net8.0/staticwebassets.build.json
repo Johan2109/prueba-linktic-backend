@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "1O8KjGQnTEVbhsqMEpzpcG+uCAtCE+uixC9WVa8ov84=",
+  "Hash": "iW7qEu9JuK+XNNchvoqIYX9mzd6ZO9V0+6k1MKMEK9E=",
   "Source": "MicroServicioInventario",
   "BasePath": "_content/MicroServicioInventario",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

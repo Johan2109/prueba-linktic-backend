@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "8RvdNk0Xz4Y3iGkn03Ms5Pxi8iKljoT/gzd00Sx8L5M=",
+  "Hash": "Qs0Y58LDg8BgROh5M/0Ai1xVycIESgKeJ8DP0XWx7kQ=",
   "Source": "MicroServicioProducto",
   "BasePath": "_content/MicroServicioProducto",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

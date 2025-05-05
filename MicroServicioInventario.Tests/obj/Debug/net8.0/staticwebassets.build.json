@@ -1,0 +1,24 @@
+{
+  "Version": 1,
+  "Hash": "xwO/3+IFNS8khcl55/Ud6Dp2Doptar1sKaXMQILyIQI=",
+  "Source": "MicroServicioInventario.Tests",
+  "BasePath": "_content/MicroServicioInventario.Tests",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\DESARROLLO\\prueba-linktic-fullstack\\prueba-linktic-backend\\MicroServicioInventario\\MicroServicioInventario.csproj",
+      "Version": 2,
+      "Source": "MicroServicioInventario",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

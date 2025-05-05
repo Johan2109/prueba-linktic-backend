@@ -37,3 +37,7 @@ D:\DESARROLLO\prueba-linktic-fullstack\prueba-linktic-backend\MicroServicioProdu
 D:\DESARROLLO\prueba-linktic-fullstack\prueba-linktic-backend\MicroServicioProducto\obj\Debug\net8.0\MicroServicioProducto.pdb
 D:\DESARROLLO\prueba-linktic-fullstack\prueba-linktic-backend\MicroServicioProducto\obj\Debug\net8.0\MicroServicioProducto.genruntimeconfig.cache
 D:\DESARROLLO\prueba-linktic-fullstack\prueba-linktic-backend\MicroServicioProducto\obj\Debug\net8.0\ref\MicroServicioProducto.dll
+D:\DESARROLLO\prueba-linktic-fullstack\prueba-linktic-backend\MicroServicioProducto\bin\Debug\net8.0\MicroServicioProducto.staticwebassets.endpoints.json
+D:\DESARROLLO\prueba-linktic-fullstack\prueba-linktic-backend\MicroServicioProducto\obj\Debug\net8.0\MicroServicioProducto.sourcelink.json
+D:\DESARROLLO\prueba-linktic-fullstack\prueba-linktic-backend\MicroServicioProducto\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\DESARROLLO\prueba-linktic-fullstack\prueba-linktic-backend\MicroServicioProducto\obj\Debug\net8.0\staticwebassets\msbuild.MicroServicioProducto.Microsoft.AspNetCore.StaticWebAssetEndpoints.props

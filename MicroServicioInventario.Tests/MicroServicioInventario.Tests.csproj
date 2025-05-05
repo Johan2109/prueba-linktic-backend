@@ -1,0 +1,57 @@
+﻿<!-- Define que este proyecto usa el SDK de ASP.NET Core -->
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<!-- Grupo de propiedades generales del proyecto -->
+	<PropertyGroup>
+		<!-- Framework de destino: .NET 8 -->
+		<TargetFramework>net8.0</TargetFramework>
+
+		<!-- Indica que este proyecto es de pruebas unitarias -->
+		<IsTestProject>true</IsTestProject>
+
+		<!-- Habilita anotaciones de nulabilidad (nullable reference types) -->
+		<Nullable>enable</Nullable>
+
+		<!-- Habilita los "usings" implícitos para no tener que escribir los más comunes -->
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<!-- Grupo de paquetes NuGet necesarios para pruebas y MongoDB -->
+	<ItemGroup>
+		<!-- SDK necesario para ejecutar pruebas en .NET -->
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
+
+		<!-- Framework xUnit para definir y ejecutar pruebas unitarias -->
+		<PackageReference Include="xunit" Version="2.4.2" />
+
+		<!-- Adaptador para que xUnit funcione dentro del entorno de testeo de Visual Studio y dotnet CLI -->
+		<PackageReference Include="xunit.runner.visualstudio" Version="2.4.5" />
+
+		<!-- Driver oficial de MongoDB para .NET -->
+		<PackageReference Include="MongoDB.Driver" Version="3.3.0" />
+
+		<!-- Biblioteca para manejo de JSON (lectura/escritura) -->
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+
+		<!-- Swagger para documentación de APIs (aunque no es esencial para pruebas, puede ser útil si se mockea documentación) -->
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="8.1.1" />
+	</ItemGroup>
+
+	<!-- Declaración de espacios de nombres que se usan en este proyecto -->
+	<ItemGroup>
+		<Using Include="Xunit" />
+	</ItemGroup>
+
+	<!-- Referencia al proyecto del microservicio de inventario que se va a probar -->
+	<ItemGroup>
+		<ProjectReference Include="..\MicroServicioInventario\MicroServicioInventario.csproj" />
+	</ItemGroup>
+
+	<!-- Instrucción para copiar el archivo de configuración appsettings.json al directorio de salida -->
+	<ItemGroup>
+		<None Update="appsettings.json">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</None>
+	</ItemGroup>
+
+</Project>

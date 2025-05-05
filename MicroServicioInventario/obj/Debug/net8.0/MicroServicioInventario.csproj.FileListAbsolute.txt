@@ -37,3 +37,7 @@ D:\DESARROLLO\prueba-linktic-fullstack\prueba-linktic-backend\MicroServicioInven
 D:\DESARROLLO\prueba-linktic-fullstack\prueba-linktic-backend\MicroServicioInventario\bin\Debug\net8.0\SharpCompress.dll
 D:\DESARROLLO\prueba-linktic-fullstack\prueba-linktic-backend\MicroServicioInventario\bin\Debug\net8.0\Snappier.dll
 D:\DESARROLLO\prueba-linktic-fullstack\prueba-linktic-backend\MicroServicioInventario\bin\Debug\net8.0\ZstdSharp.dll
+D:\DESARROLLO\prueba-linktic-fullstack\prueba-linktic-backend\MicroServicioInventario\bin\Debug\net8.0\MicroServicioInventario.staticwebassets.endpoints.json
+D:\DESARROLLO\prueba-linktic-fullstack\prueba-linktic-backend\MicroServicioInventario\obj\Debug\net8.0\MicroServicioInventario.sourcelink.json
+D:\DESARROLLO\prueba-linktic-fullstack\prueba-linktic-backend\MicroServicioInventario\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\DESARROLLO\prueba-linktic-fullstack\prueba-linktic-backend\MicroServicioInventario\obj\Debug\net8.0\staticwebassets\msbuild.MicroServicioInventario.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
